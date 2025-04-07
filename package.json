@@ -1,0 +1,18 @@
+{
+  "name": "miner",
+  "version": "1.0.0",
+  "description": "A tool to extract and download static assets from web pages using a headless browser.",
+  "main": "lib/minerCore.js",
+  "bin": {
+    "miner": "./bin/miner.js"
+  },
+  "scripts": {
+    "start": "node bin/miner.js"
+  },
+  "keywords": ["web", "scraper", "puppeteer", "assets", "miner", "js", "css", "automation"],
+  "author": "davycipher",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.3.8"
+  }
+}
